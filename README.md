@@ -14,24 +14,24 @@ Un clone simple et rapide de la commande `ls` pour les systèmes de fichiers. Ce
 
 Pour compiler et exécuter ce projet, vous devez avoir installé Rust sur votre système. Si ce n'est pas le cas, vous pouvez l'installer en utilisant `rustup` :
 
-```bash
-curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
 
-rust-ls
+
+# rust-ls
 A simple and fast clone of the ls command for file systems. This project is an implementation of the ls command using the Rust programming language, with support for several basic options.
 
-Features
-Standard Display: Lists files and directories in the current directory.
+## Features
+- **Standard Display:** Lists files and directories in the current directory.
 
-Detailed Display (-l): Shows file size and type (file or directory) in addition to the name.
+- **Detailed Display (`-l`):** Shows file size and type (file or directory) in addition to the name.
 
-Include Hidden Files (-a): Displays all files, including those that start with a dot (.).
+- **Include Hidden Files (`-a`):** Displays all files, including those that start with a dot (.).
 
-Option Combination (-la): Allows both options to be used together for a detailed display that includes hidden files.
+- **Option Combination (`-la`a):**  both options to be used together for a detailed display that includes hidden files.
 
 Directory Coloring: Directories are shown in blue for better readability.
 
-Prerequisites
+## Prerequisites
 To compile and run this project, you must have Rust installed on your system. If not, you can install it using rustup
-Bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs) | sh
