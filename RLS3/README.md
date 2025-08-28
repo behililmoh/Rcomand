@@ -24,6 +24,13 @@ Un outil en ligne de commande (CLI) puissant, conçu pour lister le contenu des 
 
 Pour compiler et exécuter ce projet, vous devez avoir installé [Rust](https://www.rust-lang.org/fr) sur votre système. Ce projet utilise plusieurs "crates" (bibliothèques Rust) qui doivent être ajoutées à votre fichier `Cargo.toml`.
 
+```bash
+cargo build --release
+cargo run -- -l 
+cargo run -- -a -R
+cargo run -- --sort size --json
+cargo run -- mon_dossier /home/utilisateur/documents
+
 Voici les dépendances nécessaires :
 
 ```toml
